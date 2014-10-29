@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Bildelsbyte Responsive Template</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+    <script type="text/javascript" src="assets/js/angular.js"></script>
+    <script type="text/javascript" src="assets/js/route.js"></script>
+    <script src="assets/js/hover.zoom.js"></script>
+    <script src="assets/js/hover.zoom.conf.js"></script>
+<!--     <script src="assets/js/main.js"></script> -->
+        <script src="assets/js/test.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+</head>
+
+<body ng-app="app">
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container" style="margin-bottom: 6px;">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/brand_logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <a href="#" style="margin-top:-50px;padding-left:12px" class="btn btn-large btn-danger pull-right" data-toggle="popover" title="" data-placement="bottom" data-content="Hej, Sorry,this feature not available now" data-original-title="SignIn">Sign In</a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Startsidan</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" style="background-color:#1abc9c" data-toggle="dropdown" href="#kamremmssatser">Kamremmssatser <b class="caret"></b></a>
+                        <ul class="dropdown-menu" style="left:0;background-color:#1abc9c">
+                            <li><a style="color:#333" href="#kamrem">Kamrem</a>
+                            </li>
+                            <li><a style="color:#333" href="#vattenpump">Vattenpump</a>
+                            </li>
+                            <li><a style="color:#333" href="#priser">Priser</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#reservdelar">Reservdelar</a>
+                    </li>
+                    <li><a href="#webShop">WebShop</a>
+                    </li>
+                    <li><a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+
+        </div>
+    </div>
+
+    <div ng-view></div>
+
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <h4>Bildelsbyte</h4>
+                    <p>Org.nr: 901117-0314</br>
+                        Stockholm
+                        <br/> Essinge Brogata 4
+                        <br/> 112 61, Lilla Essingen.
+                    </p>
+                </div>
+
+                <!-- /col-lg-4 -->
+
+                <div class="col-lg-4">
+                    <h4>Ring oss</h4>
+                    <p>Det går naturligtvis bra att ringa till oss.</br>Du når oss på</p>
+                    <a href="#">073-8097054</a>
+                    <br/>
+                    <a href="#">08-652356</a>
+                </div>
+
+                <!-- /col-lg-4 -->
+
+                <div class="col-lg-4">
+                    <div class="google-map-canvas" id="map-canvas" style="height:100%;weight:100%"> </div>
+                </div>
+
+                <!-- /col-lg-4 -->
+
+            </div>
+        </div>
+    </div>
+    <div class="fixed-side-social-container">
+        <a class="social-icon linkedin-icon" href="http://www.linkedin.com/YourProfile" target="new" title="Follow us on LinkedIn"><span></span></a>
+        <a class="social-icon twitter-icon" href="https://twitter.com/YourProfile1" target="new" title="Follow us on Twitter"><span></span></a>
+        <a class="social-icon facebook-icon" href="https://www.facebook.com/NichlasL" target="new" title="Like us on Facebook"><span></span></a>
+        <a class="social-icon google-icon" href="https://plus.google.com/106032972855787333251" target="new" title="Follow us on Google+"><span></span></a>
+    </div>
+    <script type="text/javascript">
+        $("[data-toggle=popover]").popover();
+    </script>
+</body>
+
+</html>

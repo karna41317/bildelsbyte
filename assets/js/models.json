@@ -1,0 +1,99 @@
+[
+
+        {
+            "id": 0,
+            "displayName": "Please select your car model",
+            "parentId": 1
+        }, {
+            "id": 1,
+            "displayName": "C30",
+            "parentId": 1
+        }, {
+            "id": 2,
+            "displayName": "c70--II Cabriolet",
+            "parentId": 1
+        }, {
+            "id": 3,
+            "displayName": "s40--II (MS)",
+            "parentId": 1
+        }, {
+            "id": 4,
+            "displayName": "s60",
+            "parentId": 1
+        }, {
+            "id": 5,
+            "displayName": "s60 II",
+            "parentId": 1
+        }, {
+            "id": 6,
+            "displayName": "S80 I (TS, XY)",
+
+            "parentId": 1
+        }, {
+            "id": 7,
+            "displayName": "S80 II (AS)",
+
+            "parentId": 1
+        }, {
+            "id": 8,
+            "displayName": "v40 -- Halvkombi",
+
+            "parentId": 1
+        }, {
+            "id": 9,
+            "displayName": "v50--(MW)",
+
+            "parentId": 1
+        }, {
+            "id": 10,
+            "displayName": "v60",
+
+            "parentId": 1
+        }, {
+            "id": 11,
+            "displayName": "V70 II (SW)",
+
+            "parentId": 1
+        }, {
+            "id": 12,
+            "displayName": "V70 III (BW)",
+
+            "parentId": 1
+        }, {
+            "id": 13,
+            "displayName": "XC70 CROSS COUNTRY",
+            "parentId": 1
+        }, {
+            "id": 14,
+            "displayName": "XC70 II",
+            "parentId": 1
+        }, {
+            "id": 15,
+            "displayName": "XC90",
+            "parentId": 1
+        }, {
+            "id": 16,
+            "displayName": "xc60",
+            "parentId": 1
+        }, {
+            "id": 17,
+            "displayName": "FOCUS--II (DA_)",
+
+            "parentId": 2
+        }, {
+            "id": 18,
+            "displayName": "KUGA-- I",
+
+            "parentId": 2
+        }, {
+            "id": 19,
+            "displayName": "MONDEO",
+
+            "parentId": 2
+        }, {
+            "id": 20,
+            "displayName": " S-MAX",
+
+            "parentId": 2
+        }
+    ]
