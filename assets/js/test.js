@@ -75,10 +75,10 @@ function dropdownCtrl($scope, $http, filterFilter) {
     });
     $scope.filteredArray1 = [];
     $scope.$watch("selectedChildItem", function() {
-        $scope.filtered1Array = filterFilter($scope.grandChildItems, {
+        $scope.filteredArray1 = filterFilter($scope.grandChildItems, {
             childId: $scope.selectedChildItem.id
         });
-        $scope.selectedGrandChildItem = $scope.filtered1Array[0];
+        $scope.selectedGrandChildItem = $scope.filteredArray1[0];
 
     }, true);
     /*
